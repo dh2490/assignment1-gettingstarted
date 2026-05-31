@@ -20,9 +20,9 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = int("4")
+        answer = int("1")
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = int("2")
+        answer = int("3")
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
@@ -34,7 +34,7 @@ def welcome_assignment_answers(question):
 
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
-    debug_question = ("In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?")
+    debug_question = ("What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number")
     print(welcome_assignment_answers(debug_question))
 
 #Questions:
